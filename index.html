@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+  <title>samsung.gopi</title>
+<head>
+
+<style>
+.dropdown {
+  position: relative;
+  display: inline-block;
+  font-size: 50%;
+  color:black;
+  border-width: 10%;
+  border-radius: 12px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width:900px;
+  min-height:900px;
+  font-size: 200%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    color:green;
+  display: block;
+  max-width:0vmax
+}
+.dropdown:hover {background-color: black;
+color:white;
+opacity: 0.9;
+}
+.mySlides{display: none;}
+.border{
+        border-style:inset;
+        width: 450px;
+        height: 304px;
+        border-radius: 12px;
+        background-color: darkgray;
+        
+
+    }
+    .border-content
+    {
+        color:white;
+       
+    }
+    .button
+    {
+     
+      width: 150px;
+      height:40px;
+      font-size: 80%;
+      border-radius: 12px;
+      background-color: darkgrey;
+    }
+    .border:hover .border-content
+    {
+        border-color: lightsalmon;
+        color:#000;
+        
+        
+    }
+    button.hover{
+      border-color: black;
+      color:green;
+    }
+    .border:hover
+    {
+        border-color: lightsalmon;
+        color: black;
+        background-color:#E5E4E2;
+    }
+
+    body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+</style>
+</head>
+<body style="background-color: white;">
+<h1 style="border-style:hidden;height:50px;">
+    <strong>SAMSUNG</strong>&emsp;&emsp;&emsp;
+<div class="dropdown" >
+
+ MOBILE
+  <div class="dropdown-content">
+      <img src="phone.webp"alt=""width="400px" height="400px" style="float: right;" ><br><br>
+      <a href="https://www.samsung.com/in/smartphones/galaxy-s21-5g/"alt="" style="text-decoration: none; color: black;">Galaxy Z Fold3 5G</a><br><br>
+      <a href="https://www.samsung.com/in/smartphones/galaxy-z-flip3-5g/"alt="" style="text-decoration: none; color: black;">Galaxy Z Flip3 5G</a><br><br>
+      <a href="https://www.samsung.com/in/smartphones/galaxy-s21-5g/"alt=" " style="text-decoration: none; color: black;">Galaxy S21|S21+ 5G</a><br><br>
+      <a href="https://www.samsung.com/in/smartphones/galaxy-s21-ultra-5g/" alt="" style="text-decoration: none; color: black;">Galaxy S21 Ultra 5G</a><br><br>
+      <a href="https://www.samsung.com/in/watches/galaxy-watch/galaxy-watch4-black-bluetooth-sm-r870nzkainu/" alt="" style="text-decoration: none; color: black;"> Galaxy Watch4</a><br><br>
+      <a href="https://www.samsung.com/in/watches/galaxy-watch/galaxy-watch4-classic-black-bluetooth-sm-r890nzkainu/" alt="" style="text-decoration: none; color: black;"> Galaxy Watch4 classic</a><br><br>
+  </div>
+</div>&nbsp;&nbsp;
+<div class="dropdown" >
+    TV & AV
+     <div class="dropdown-content">
+         <img src="tvs.webp"alt=""width="400px" height="400px" style="float: right;" ><br><br>
+         <a href="https://www.samsung.com/in/tvs/qled-tv/highlights/"alt="" style="text-decoration: none; color: black;">Neo QLED 8K</a><br><br>
+         <a href="https://www.samsung.com/in/tvs/qled-tv/?neo-qled+qled-4k"alt="" style="text-decoration: none; color: black;">Neo QLED 4K</a><br><br>
+         <a href="https://www.samsung.com/in/tvs/qled-tv/4k/highlights/"alt=" " style="text-decoration: none; color: black;">QLED 4K</a><br><br>
+         <a href="https://www.samsung.com/in/microsite/uhd-tv/" alt="" style="text-decoration: none; color: black;">4K UHD TV</a><br><br>  
+     </div>
+   </div>&nbsp;&nbsp;
+   <div class="dropdown" >
+    HOME APPLIANCES
+     <div class="dropdown-content">
+         <img src="refrigerator.jpg"alt=""width="400px" height="400px" style="float: right;" ><br><br>
+         <a href="https://www.samsung.com/in/refrigerators/french-door/"alt="" style="text-decoration: none; color: black;">Refrigerators</a><br><br>
+         <a href="https://www.samsung.com/in/washers-and-dryers/washer-dryer-combo/"alt="" style="text-decoration: none; color: black;">Washing Machine</a><br><br>
+         <a href="https://www.samsung.com/in/air-conditioners/"alt=" " style="text-decoration: none; color: black;">Air conditioner</a><br><br>
+         <a href="https://www.samsung.com/in/microwave-ovens/convection/" alt="" style="text-decoration: none; color: black;">Cooking Appliances</a><br><br>  
+     </div>
+   </div>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+   <div class="dropdown" >
+    SUPPORT
+     <div class="dropdown-content" style="min-width: 600%;min-height: 700%;">
+       
+         <img src="contact.webp"alt=""width="400px" height="400px" style="float: right;" >
+         <a href="https://www.samsung.com/in/support/newsalert/"alt="" style="text-decoration: none; color: black;">Solution & Tips</a><br><br>
+         <a href="https://www.samsung.com/in/support/service-center/"alt="" style="text-decoration: none; color: black;">Service</a><br><br>
+         <a href="https://api.whatsapp.com/send?phone=91180057267864&text=&source=&data="alt=" " style="text-decoration: none; color: black;">Contct Us</a><br><br>
+         <a href="https://www.samsung.com/in/shop-faq/products-and-orders/" alt="" style="text-decoration: none; color: black;">Online Shop Support</a><br><br>  
+     </div>
+   </div>&nbsp;&nbsp;
+   <div class="dropdown">
+     ABOUT
+     <div class="dropdown-content" style="color:black;min-width: 700%;min-height: 700%;">
+      The Samsung Group[3] (Korean: 삼성) is a South Korean multinational conglomerate headquartered in Samsung Town, Seoul.[1] It comprises numerous affiliated businesses,[1] most of them united under the Samsung brand, and is the largest South Korean chaebol (business conglomerate). As of 2020, Samsung has the 8th highest global brand value.[4]Samsung was founded by Lee Byung-chul in 1938 as a trading company. Over the next three decades, the group diversified into areas including food processing, textiles, insurance, securities, and retail. Samsung entered the electronics industry in the late 1960s and the construction and shipbuilding industries in the mid-1970s; these areas would drive its subsequent growth. Following Lee's death in 1987, Samsung was separated into five business groups – Samsung Group, Shinsegae Group, CJ Group and Hansol Group, and Joongang Group. 
+     </div>
+   </div>&emsp;
+   <input type="text" placeholder="Search.." name="search" style="width: 5%;height: 20px;border-radius: 12px;">
+   <button type="submit"><i class="fa fa-search"><img src="search.png" alt="" width="20px"></i></button>
+   
+       <a href="https://www.samsung.com/in/web/cart/"><img src="addto.gif" alt="" width="30px"></a>
+       <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="https://www.samsung.com/in/smartphones/galaxy-s21-5g/buy/?modelCode=SM-G991BZVDINU">Mobile</a><br>
+        <a href="https://www.samsung.com/in/lifestyle-tvs/the-serif/ls01t-43-inch-the-serif-4k-smart-tv-cloud-white-qa43ls01takxxl/">TV & AV</a><br>
+        <a href="https://www.samsung.com/in/offer/online/samsung-bundle/">Home Appliances</a><br>
+        <a href="https://www.samsung.com/in/support/service-center/">About</a><br>
+        <a href="https://www.samsung.com/in/support/your-service/main/">Services</a><br>
+        <a href="http://csr.samsung.com/en/main.do">Clients</a><br>
+        <a href="https://api.whatsapp.com/send?phone=91180057267864&text=&source=&data=">Contact</a>
+      </div>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+      <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "400px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script><br><br>
+           </h1>
+
+<div class="w3-content w3-section" style="max-width:1200px;max-height: 900px;margin-left: auto;margin-right: auto;">
+  <img class="mySlides" src="tv.webp" style="width:100%">
+  <img class="mySlides" src="washing.webp" style="width:100%">
+  <img class="mySlides" src="fridge.webp" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+<h2 style="font-family: cursive;text-align: center;font-size: 50px;">This month's Picks</h2>
+<h3 style="text-align: center;font-size: 30px;">Mobile</h3>
+<p >
+ <div class="border" style=" float: left;margin-left:100px;height: 695px;width: 750px;">
+
+  <div class="border-content">
+    <p style="float: right;font-size: 35px;margin-right: 10px;;">&emsp;SAMSUNG<br><br>Galaxy S21|S21+5G<br><br><br>Never before offer<br><br>&emsp;&emsp;at <span>&#8377</span>58999*<br><br><br><br>&emsp;&emsp;<button class="button" "><a href="https://www.samsung.com/in/smartphones/galaxy-s21-5g/buy/?modelCode=SM-G991BZVDINU" alt="" style="text-decoration: none;color:white">Buy Now</a></button></p>
+   <img src="s21.webp"alt=""style="width: 420px;height: 580px;">
+  
+   </div>
+   </div>
+   
+   <div class="border" style="float: left;margin-left:25px;width: 500px; height: 340px">
+    <div class="border-content">
+       
+   <img src="sf2.webp"alt=""style="width:300px;height: 300px;margin: 10px;">
+   <p style="float: right; margin-right: 60px;font-size: 20px;">SAMSUNG<br><br>&emsp;Galaxy<br><br>Z Fold2 5g<br><br><br><span style="font-size: 30px;">4% OFF</span></p>
+ </div>
+ </div>
+ <div class="border" style="float: left;margin-left:25px;margin-top:10px;width: 500px; height: 340px">
+  <div class="border-content">
+     
+ <img src="sf3.webp"alt=""style="width:300px;height: 300px;margin: 10px;">
+ <p style="float: right; margin-right: 60px;font-size: 20px;">SAMSUNG<br><br>&nbsp;&nbsp;Galaxy S9<br><br>Own now at<br><br>&emsp;&emsp;just<br><br><br><span style="font-size: 30px;"><span>&#8377</span>60999*</span></p>
+</div>
+</div>
+<br>
+</p>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><p style="font-size: 190%;text-align: center;">HOT ACCESSORIES</p>
+     <div class="border" style=" float: left;margin-left:130px;height: 600px;width: 300px;">
+     <div class="border-content">
+      <img src="e1.jpg"alt=""style=" width: 300px;height: 600px;">
+      
+     </div>
+      </div>
+  <div class="border" style=" float: left;margin-left:10px;height: 295px;width: 300px;background-color: white;">
+  <div class="border-content" >
+   <img src="e2.jpg"alt=""style="margin-left: 50px; width: 200px;height: 200px;">
+   <p style="color: black;">&emsp;&emsp;Portable Bluetooth speaker(16W)</p>
+   <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span>&#8377</span>2499</p>
+
+  </div>
+   </div>
+   <div class="border" style=" float: left;margin-left:10px;height: 295px;width: 300px;background-color: white;">
+    <div class="border-content">
+     <img src="e3.jpg"alt=""style="margin-left: 50px; width: 200px;height: 200px;">
+     <p style="color:black;">&emsp;&emsp;Superbass Wireless Headphones</p>
+     <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span>&#8377</span>1699</p>
+    </div>
+     </div>
+     <div class="border" style=" float: left;margin-left:10px;margin-top:0px;height: 295px;width: 300px;background-color: white;">
+      <div class="border-content">
+       <img src="e4.jpg"alt=""style="margin-left: 50px; width: 200px;height: 200px;">
+       <p style="color: black;">&emsp;&emsp;&emsp;&emsp;Dualdriver in Hearphones</p>
+     <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span>&#8377</span>799</p>
+      </div>
+       </div>
+       <div class="border" style=" float: left;margin-left:10px;margin-top:10px;height: 295px;width: 300px;background-color: white;">
+        <div class="border-content">
+         <img src="e5.jpg"alt=""style="margin-left: 50px;  width: 200px;height: 200px;">
+         <p style="color: black;">&emsp;&emsp;Neckband Bluetooth Earphone Pro </p>
+         <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span>&#8377</span>1799</p>
+        </div>
+         </div>
+         <div class="border" style=" float: left;margin-left:10px;margin-top:10px;height: 295px;width: 300px;background-color: white;">
+          <div class="border-content">
+           <img src="e6.jpg"alt=""style="margin-left: 50px;  width: 200px;height: 200px;">
+           <p style="color: black;">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Smart Band </p>
+           <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span>&#8377</span>2099</p>
+          </div>
+           </div>
+           <div class="border" style=" float: left;margin-left:10px;margin-top:10px;height: 295px;width: 300px;background-color: white;">
+            <div class="border-content">
+               <a href="https://www.samsung.com/in/" style="text-decoration: none;"><h1 style="color: orangered;font-size: 300%;">&emsp;Browse<br>&emsp;More<br>&emsp;&emsp;&emsp;&emsp;<span style="font-size: 200%;">&#8594</span></h1></a>
+            </div>
+             </div>
+       
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><h1 style="text-align: center;">Home Appliances</h1>
+<div class="border" style=" float: left;margin-left:100px;height: 685px;width: 625px;">
+  <div class="border-content">
+   <img src="fr1.jpg"alt=""style="margin-left: 60px; margin-top:10px; width: 500px;height: 400px;">
+   <h1 style="font-family: cursive;text-align: center;">Double door with twin cooling</h1>
+  <p style="font-size: 200%;font-family: cursive;">&emsp;&emsp;&emsp;&emsp;&emsp;EMI starting from<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span>&#8377</span>2071/month<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<button class="button" "><a href="https://www.samsung.com/in/smartphones/galaxy-s21-5g/buy/?modelCode=SM-G991BZVDINU" alt="" style="text-decoration: none;color:white">Buy Now</a></button></p> 
+  </div>
+   </div>
+   <div class="border" style=" float: right;margin-right:100px;height: 685px;width: 625px;">
+
+    <div class="border-content">
+      <img src="tvr.webp"alt=""style="margin-left: 60px; margin-top:10px; width: 500px;height: 400px;">
+      <h1 style="font-family: cursive;text-align: center;">Smart HD TV|Own now at <span>&#8377</span>905/month</h1>
+     <p style="font-size: 200%;font-family: cursive;">&emsp;&emsp;&emsp;Price starting from <span>&#8377</span>19740</span><br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<button class="button" "><a href="https://www.samsung.com/in/smartphones/galaxy-s21-5g/buy/?modelCode=SM-G991BZVDINU" alt="" style="text-decoration: none;color:white">Buy Now</a></button></p> 
+     </div>
+     </div>
+     <br><p>.</p>
+     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><h1 style="text-align: center;font-family: cursive;">Looking for Something Else</h1>
+     <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="text" placeholder= "Search here" name="search" style="width: 45%;height: 40px;border-radius: 12px;text-align: center;border: dotted;font-size: 200%;">
+     <br><br><br><br><br><br> <h1 style="border-style: solid;height: 500px ;background-color: #808080; color: white; width:1500px; font-size: 20px;"><br>
+      <p style="float: left;margin-left: 10px;"><strong>PRODUCT & SERVICE</strong><br>
+
+        <br>Smartphones<br>
+        Tablets<br>
+        Audio Sound<br>
+        Watches<br>
+        Smart Switch<br>
+        Mobile Accessories<br>
+        TVs<br>
+        Sound Devices<br>
+        Refrigerators<br>
+        Laundry<br>
+        Air Solutions<br>
+        Cooking Appliances<br>
+        Monitors<br>
+        Memory Storage<br>
+    
+      </p>
+    <p style="float: left;margin-left: 70px;"><strong>SHOP</strong>
+        <br><br>Cancellation & Return Policy<br>
+Track Order Status<br>
+20K Advantage<br>
+Samsung Referral Advantage<br>
+Samsung Student Advantage<br>
+Defence Purchase Program<br>
+Corporate Employee Program<br>
+Corporate Bulk Purchase<br>
+Samsung Experience Store<br>
+Store Locator<br>
+Smart Club<br>
+FAQs<br>
+Terms of Use<br>
+Grievance Redressal<br>
+      </p>
+      <p style="float: left;margin-left: 70px;"><strong>SUPPORT</strong>
+      <br><br>
+          Whatsapp Us<br>
+          Chat with Us<br>
+          Email Us<br>
+          Call Us<br>
+          Email the CEO<br>
+          Community<br>
+          Product Registration<br>
+          Service Centre
+      </p>
+      <p style="float: left;margin-left: 70px;"><strong>ACCOUNT & COMMUNITY</strong>
+<br><br>
+    My Page<br>
+    My Products<br>
+    Orders<br>
+    Wishlist<br>
+    Vouchers<br>
+    My Referrals<br>
+    Service<br>
+    Community<br>
+    Subscribe<br>
+
+
+      </p>
+      <p style="float: left;margin-left: 70px;"><strong>ABOUT US</strong>
+        <br><br>
+        Company Info<br>
+        Business Area<br>
+        Brand Identity<br>
+        Careers<br>
+        Investor Relations<br>
+        Newsroom<br>
+        Samsung Design
+        <br><br><br><br><br><br><br><br><br><br><hr>
+    </h1>
+    <p style="font-size: 12px;">
+
+      Copyright ⓒ 1995-2021 SAMSUNG All Rights reserved.<br>
+      Please dispose of e-waste and plastic waste responsibly.<br><br>
+      
+      For more information or e-waste pick up, please call 1800 40 SAMSUNG (7267864) or 1800 5 SAMSUNG (7267864) or click here for more details.
+      
+      <br><br>
+      Registered Office Address: 6th Floor, DLF Centre, Sansad Marg, New Delhi-110001
+      <br>Corporate Identification Number (CIN): U31900DL1995PTC071387
+      </p><hr>
+      <p style="margin-left: 500px;"><strong>FOLLOW SAMSUNG</strong><br><br>we want to hear from you&emsp;&emsp;&emsp;&emsp;<a href="https://www.facebook.com/" style="text-decoration: none;"><img src="fb.png" style="height: 30px;width:30px;"></a>&emsp;<a href="https://www.instagram.com/" style="text-decoration: none;"><img src="ins.jpg" style="height: 30px;width:30px;"></a>&emsp;<a href="https://twitter.com/?lang=en" style="text-decoration: none;"><img src="tw.jpg" style="height: 30px;width:30px;"></a>&emsp;<a href="https://www.whatsapp.com/?lang=en" style="text-decoration: none;"><img src="wh.jpg" style="height: 30px;width:30px;"></a>&emsp;<a href="https://in.linkedin.com/" style="text-decoration: none;"><img src="li.png" style="height: 30px;width:30px;"></a>&emsp; </p><br><br><br><hr>
+    </body>
+</html>
+
